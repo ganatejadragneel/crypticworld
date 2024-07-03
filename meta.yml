@@ -1,0 +1,33 @@
+name: Cryptic World
+
+docker_image: localhost:56156/Cryptic World
+
+description: |
+  author: [Gana Teja Akula](https://github.com/ganatejadragneel)
+
+  This challenge is a mixture of Web snooping, secret phrases, and basic cryptography. Don't overthink it!
+
+  Step 1:
+    Forward the traffic back from the remote server
+  Step 2:
+    Access the website on local port and solve the given challenges which consist of 3 levels and gets harder as you progress.
+    The result you need will be at the end of your journey. 
+  Step 3:
+    Submit the Flag.
+
+# Value should be in range of 100-300
+value: 200
+# Available categories are: 
+category: Web
+# Your custom Flag
+flag: CTF_SDaT{Luffy_Zoro}
+
+hints:
+  - {
+    content: "The content of the website includes not only html but css which is blocking you. Every element has a name.",
+    cost: 20
+  }
+  - {
+    content: "Remember every single thing that u see in level 1 incase u don't understand what to do",
+    cost: 40
+  }
